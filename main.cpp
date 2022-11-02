@@ -9,7 +9,8 @@ int main()
     cout<<"Podaj imie:";
     cin>>imie;
 
-
+    int dlugosc=imie.length();
+    cout<<dlugosc;
 
     return 0;
 }
