@@ -10,7 +10,10 @@ int main()
     cin>>imie;
 
     int dlugosc=imie.length();
-    cout<<dlugosc;
+
+    if (imie[dlugosc-1]=='a')
+        cout<<"Wydaje mi sie, ze jestes kobieta";
+    else cout<<"Wydaje mi sie, ze jestes facetem";
 
     return 0;
 }
